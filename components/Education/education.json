@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "image": "/education/mescoe.svg",
+        "college": "Modern Education Society's College of Engineering, Pune",
+        "degree":"Bachelor’s in Engineering",
+        "years":"August 2019 - June 2023",
+        "measure": "CGPA",
+        "score": 9.28
+    },
+    {
+        "id": 2,
+        "image": "/education/impulse.svg",
+        "college": "Impulse Educational Institutions, Hyderabad",
+        "degree": "HSC - 12th",
+        "years": "June 2017 - May 2019",
+        "measure": "Percentage",
+        "score": 95.60
+    },
+    {
+        "id": 3,
+        "image": "/education/felix.svg",
+        "college": "St. Felix High School, Pune",
+        "degree": "SSC - 10th",
+        "years": "July 2012 - March 2017",
+        "measure": "Percentage",
+        "score": 88.50
+    }
+]

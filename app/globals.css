@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.heading{
+    border-bottom: solid #12ABC5 8px;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+/*****************************************NAVBAR**********************************/
+.navItem{
+    position: relative;
+    z-index: 10;
+    padding: 0 7px;
+}
+
+.navItem:after{
+    content:'';
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 0px;
+    transition: all 300ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.navItem:focus:after,
+.navItem:hover:after {
+    background-color: #12ABC5;
+    height: 8px;
+    width: 100%;
+}
+
+.navItem:before {
+    transition: transform 300ms cubic-bezier(.165, .84, .44, 1)
+}
+
+/*********************************************HERO**************************************/
+
+.wordAnimation1{
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.wordAnimation2{
+    overflow: hidden;
+    position: relative;
+    height: 460px;
+}
+
+.flip2 {
+    animation: flip2 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+.flip3 {
+    animation: flip3 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+@keyframes flip2 {
+    0% {
+        /* margin-top: -140px; */
+    }
+
+    5% {
+        margin-top: -70px;
+    }
+
+    50% {
+        margin-top: -70px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -140px; */
+    }
+}
+
+@keyframes flip3 {
+    0% {
+        /* margin-top: -884px; */
+    }
+
+    5% {
+        margin-top: -442px;
+    }
+
+    50% {
+        margin-top: -442px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -884px; */
+    }
+}
+
+.smallWordAnimation1{
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.smallWordAnimation2 {
+    overflow: hidden;
+    position: relative;
+    height: 360px;
+}
+
+.smallFlip2 {
+    animation: smallFlip2 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+.smallFlip3 {
+    animation: smallFlip3 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+@keyframes smallFlip2 {
+    0% {
+        /* margin-top: -140px; */
+    }
+
+    5% {
+        margin-top: -50px;
+    }
+
+    50% {
+        margin-top: -50px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -140px; */
+    }
+}
+
+@keyframes smallFlip3 {
+    0% {
+        /* margin-top: -884px; */
+    }
+
+    5% {
+        margin-top: -360px;
+    }
+
+    50% {
+        margin-top: -360px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -884px; */
+    }
+}
+
+.mobileWordAnimation1 {
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    /* padding-top: 10px; */
+}
+
+/* .mobileWordAnimation2 {
+    overflow: hidden;
+    position: relative;
+    height: 230px;
+} */
+
+.mobileFlip2 {
+    animation: mobileFlip2 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+.mobileFlip3 {
+    animation: mobileFlip3 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+}
+
+@keyframes mobileFlip2 {
+    0% {
+        /* margin-top: -140px; */
+    }
+
+    5% {
+        margin-top: -40px;
+    }
+
+    50% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -140px; */
+    }
+}
+
+@keyframes mobileFlip3 {
+    0% {
+        /* margin-top: -884px; */
+    }
+
+    5% {
+        margin-top: -230px;
+    }
+
+    50% {
+        margin-top: -230px;
+    }
+
+    55% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        /* margin-top: -884px; */
+    }
+}
+
+/************************************************ABOUT***************************************/
+.scroll {
+    position: relative;
+    overflow: hidden;
+    width: 342px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/* .mScroll {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollText 7.2s cubic-bezier(0.165, 0.84, 0.44, 1.2) infinite;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1368px;
+} */
+
+/* @keyframes scrollText{
+    0% {
+            margin-left: -1368px;
+        }
+    
+        5% {
+            margin-left: -1026px;
+        }
+    
+        25% {
+            margin-left: -1026px;
+        }
+    
+        30% {
+            margin-left: -684px;
+        }
+    
+        50% {
+            margin-left: -684px;
+        }
+    
+        55% {
+            margin-left: -342px;
+        }
+    
+        75% {
+            margin-left: -342px;
+        }
+    
+        80% {
+            margin-left: 0px;
+        }
+    
+        99.99% {
+            margin-left: 0px;
+        }
+    
+        100% {
+            margin-left: -360px;
+        }
+} */
+
+.portfolioButton {
+    position: relative;
+    z-index: 10;
+}
+
+.portfolioButton:after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: -4%;
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    border-radius: 1.5rem;
+    z-index: -1;
+    transition: all 300ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.portfolioButton:hover:after {
+    background-color: #12aac587;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolioButton:before {
+    transition: transform 300ms cubic-bezier(.165, .84, .44, 1)
+}
+
+/*************************************************SKILLS**********************************************/
+.logoContainer {
+    position: relative;
+    width: 50%;
+}
+
+.skillsIcon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.4);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.logoContainer:hover .overlay {
+    opacity: 1;
+}
+
+.progressBar {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/************************************FOOTER*********************************************/
+.footerItem {
+    position: relative;
+    z-index: 10;
+    padding: 0 12px 0 0;
+}
+
+.footerItem:after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 0px;
+    transition: all 300ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.footerItem:focus:after,
+.footerItem:hover:after {
+    background-color: #12ABC5;
+    height: 8px;
+    width: 100%;
+}
+
+.footerItem:before {
+    transition: transform 300ms cubic-bezier(.165, .84, .44, 1)
+}

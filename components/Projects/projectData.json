@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "image":"/projects/rampReady.png",
+        "name":"Ramp Ready",
+        "description":"A garment rental website",
+        "skills":[
+            "NextJS", "Tailwind"
+        ],
+        "icon1":"/projects/githubIcon.svg",
+        "icon2":"/projects/linkIcon.svg",
+        "icon1Link":"https://github.com/sarvaniK01/Ramp_Ready",
+        "icon2Link":"https://ramp-ready.vercel.app/"
+    },
+    {
+        "id": 2,
+        "image": "/projects/netflixClone.png",
+        "name": "Netflix Clone",
+        "description": "Clone of the Netflix Landing Page",
+        "skills": [
+            "NextJS",
+            "Tailwind"
+        ],
+        "icon1": "/projects/githubIcon.svg",
+        "icon2": "/projects/linkIcon.svg",
+        "icon1Link": "https://github.com/sarvaniK01/Netflix_Clone_NextJS",
+        "icon2Link": "https://netflix-olive-xi.vercel.app/"
+    },
+    {
+        "id": 3,
+        "image": "/projects/tasky.png",
+        "name": "TaskY",
+        "description": "To-do list app",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "icon1": "/projects/githubIcon.svg",
+        "icon2": "/projects/linkIcon.svg",
+        "icon1Link": "https://github.com/sarvaniK01/TaskY-Project",
+        "icon2Link": "https://sarvanik01.github.io/TaskY-Project/"
+    },
+    {
+        "id": 4,
+        "image": "/projects/ghumoPuneWebsite.png",
+        "name": "GhumoPune",
+        "description": "Travel website for Pune",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "icon1": "/projects/githubIcon.svg",
+        "icon2": "/projects/linkIcon.svg",
+        "icon1Link": "https://github.com/sarvaniK01/GhumoPune",
+        "icon2Link": "https://ghumo-pune.vercel.app/"
+    },
+    {
+        "id": 5,
+        "image": "/projects/portfolioDesign.png",
+        "name": "Portfolio Design",
+        "description": "Figma design of Portfolio",
+        "skills": [
+            "Figma",
+            "Figjam"
+        ],
+        "icon1": "/projects/figmaIcon.svg",
+        "icon2": "/projects/figjamIcon.svg",
+        "icon1Link": "https://www.figma.com/file/9AlKgnqJZTNJi1h9RXCoPc/Portfolio?type=design&node-id=0%3A1&mode=design&t=GFzViLbtl13W4zgP-1",
+        "icon2Link": "https://www.figma.com/file/WfKaUEvO1ayMSoGlBjkYVB/Portfolio-wireframe?type=whiteboard&node-id=0%3A1&t=lUyR1TDnIKuRtU5e-1"
+    },
+    {
+        "id": 6,
+        "image": "/projects/ghumoPuneDesign.png",
+        "name": "GhumoPune Design",
+        "description": "Design of a Travel website",
+        "skills": [
+            "Figma",
+            "Figjam"
+        ],
+        "icon1": "/projects/figmaIcon.svg",
+        "icon2": "/projects/figjamIcon.svg",
+        "icon1Link": "https://www.figma.com/file/83JoIzqTjy7w8NCATWz1Ty/GhumoPune?type=design&node-id=0%3A1&mode=design&t=9abQMUljBzTII3k8-1",
+        "icon2Link": "https://www.figma.com/file/pt9TDb68noArggeNnNBOZP/GhumoPune?type=whiteboard&node-id=0%3A1&t=lXg6Xk64xEEpKdsz-1"
+    }
+]

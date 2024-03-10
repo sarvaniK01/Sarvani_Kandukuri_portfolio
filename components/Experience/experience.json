@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "logo":"/experience/pnq.svg",
+        "color":"red-500",
+        "companyLink":"https://www.linkedin.com/company/pnqtech/mycompany/verification/",
+        "companyName":"PnQ Technologies",
+        "designation":"Frontend Developer",
+        "skills": ["HTML", "CSS", "JS", "SASS"],
+        "description": [
+            "Working on the addition of new features and resolving bugs in the website.",
+            "Improving the accessibility of the websites for the better experience of the users",
+            "Conducting weekly meetings for the UI team across various locations.",
+            "Learning and implementing new frameworks and technologies."
+        ]
+    },
+    {
+        "id": 2,
+        "logo": "/experience/wss.svg",
+        "color": "#39A4E6",
+        "companyLink": "https://www.linkedin.com/company/wharfstreetstrategiesltd/",
+        "companyName": "Wharf Street Strategies",
+        "designation": "Frontend Developer",
+        "skills": [
+            "HTML/CSS",
+            "JS",
+            "ReactJS",
+            "NextJS"
+        ],
+        "description": [
+            "Ensured cross-browser compatibility and responsiveness across devices.",
+            "Engaged in code reviews, debugging, and efficient issue resolution.",
+            "Coordinated with the design team for intuitive and visually appealing interfaces.",
+            "Proactively learned new technologies to enhance skills and boost productivity."
+        ]
+    },
+    {
+        "id": 3,
+        "logo": "/experience/ec.svg",
+        "color": "ec",
+        "companyLink": "https://www.linkedin.com/company/engineersconnectofficial/",
+        "companyName": "EngineersConnect",
+        "designation": "Frontend Intern",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "BS"
+        ],
+        "description": [
+            "Worked with the development team to create and maintain responsive and visually appealing web applications.",
+            "Crafted cross-browser compatible user interfaces while adhering to web standards.",
+            "Ensured project requirements and  deadlines were met by maintaining effective communication with the team members."
+        ]
+    }
+]
