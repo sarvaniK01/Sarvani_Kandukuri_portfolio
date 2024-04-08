@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ramp Ready
+A garment rental website
+## Table of contents
+* [Website Link](#website-link)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Screenshots](#screenshots)
 
-## Getting Started
+## Website Link: 
+The website is hosted on vercel. <br>
+[Link to Website](https://sarvanik-portfolio.vercel.app/)
 
-First, run the development server:
+## General info
+ It is a simple portfolio displaying various projects and my professional experience
+	
+## Technologies
+The technologies used are Next.js, Tailwind CSS and Formik(for forms)
+	
+## Setup
+The program can run on any IDE
+Steps:
+1. After cloning it you can open it in VS Code and navigate to the directory on your terminal and then run: <br>
+    ```npm install```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. After all the necessary libraries are installed you can run it by using: <br>
+   ```npm run dev```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open the localhost on your laptop/computer to view the website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots
+<img width="950" alt="image" src="https://github.com/sarvaniK01/Sarvani_Kandukuri_portfolio/assets/68905086/47b357ce-3ef2-4294-b94b-075492bd7e60"> <br>
+<img width="944" alt="image" src="https://github.com/sarvaniK01/Sarvani_Kandukuri_portfolio/assets/68905086/f90ca4f5-bd6f-474c-9425-0851a6f301c6"> <br>
+<img width="931" alt="image" src="https://github.com/sarvaniK01/Sarvani_Kandukuri_portfolio/assets/68905086/9e414c1a-e329-4c55-9e5d-182258b2e221"> <br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
