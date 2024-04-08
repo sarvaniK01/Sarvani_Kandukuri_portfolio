@@ -130,7 +130,7 @@ const Navbar = () => {
       
       
       {/* Desktop version */}
-      <nav className="hidden container mx-auto xl:flex flex-row justify-between mx-20 py-10 xl:px-10">
+      <nav className="hidden container mx-auto xl:flex flex-row justify-between mx-20 py-10 2xl:px-20">
         <Link href="/">
           <Image src={logo} alt="logo" aria-label='logo' width={120} />
         </Link>
