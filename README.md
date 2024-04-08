@@ -1,5 +1,5 @@
-# Ramp Ready
-A garment rental website
+# Portfolio website
+A portfolio website of a Frontend developer
 ## Table of contents
 * [Website Link](#website-link)
 * [General info](#general-info)
