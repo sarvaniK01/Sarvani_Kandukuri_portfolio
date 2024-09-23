@@ -9,7 +9,7 @@ A portfolio website of a Frontend developer
 
 ## Website Link: 
 The website is hosted on vercel. <br>
-[Link to Website](https://sarvanik-portfolio.vercel.app/)
+[Link to Website](https://sarvani-kandukuri-portfolio.vercel.app/)
 
 ## General info
  It is a simple portfolio displaying various projects and my professional experience
