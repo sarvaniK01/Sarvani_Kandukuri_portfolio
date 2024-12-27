@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image":"/projects/rampReady.png",
+        "image":"/projects/rampReady.webp",
         "name":"Ramp Ready",
         "description":"A garment rental website",
         "skills":[
@@ -14,21 +14,21 @@
     },
     {
         "id": 2,
-        "image": "/projects/netflixClone.png",
-        "name": "Netflix Clone",
-        "description": "Clone of the Netflix Landing Page",
+        "image": "/projects/duhlicious.png",
+        "name": "Duhlicious",
+        "description": "A diverse recipe website",
         "skills": [
             "NextJS",
             "Tailwind"
         ],
         "icon1": "/projects/githubIcon.svg",
         "icon2": "/projects/linkIcon.svg",
-        "icon1Link": "https://github.com/sarvaniK01/Netflix_Clone_NextJS",
-        "icon2Link": "https://netflix-olive-xi.vercel.app/"
+        "icon1Link": "https://github.com/sarvaniK01/Duhlicious",
+        "icon2Link": "https://duhlicious.vercel.app/"
     },
     {
         "id": 3,
-        "image": "/projects/tasky.png",
+        "image": "/projects/tasky.webp",
         "name": "TaskY",
         "description": "To-do list app",
         "skills": [
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "image": "/projects/ghumoPuneWebsite.png",
+        "image": "/projects/ghumoPuneWebsite.webp",
         "name": "GhumoPune",
         "description": "Travel website for Pune",
         "skills": [
@@ -58,7 +58,7 @@
     },
     {
         "id": 5,
-        "image": "/projects/portfolioDesign.png",
+        "image": "/projects/portfolioDesign.webp",
         "name": "Portfolio Design",
         "description": "Figma design of Portfolio",
         "skills": [
@@ -72,7 +72,7 @@
     },
     {
         "id": 6,
-        "image": "/projects/ghumoPuneDesign.png",
+        "image": "/projects/ghumoPuneDesign.webp",
         "name": "GhumoPune Design",
         "description": "Design of a Travel website",
         "skills": [

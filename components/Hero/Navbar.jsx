@@ -134,38 +134,38 @@ const Navbar = () => {
         <Link href="/">
           <Image src={logo} alt="logo" aria-label='logo' width={120} />
         </Link>
-        <ul className='text-black font-baskerville flex flex-row gap-12 my-auto text-2xl'>
+        <div className='text-black font-baskerville flex flex-row gap-12 my-auto text-2xl'>
           <Link href='#hero' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               Home
-            </li>
+            </span>
           </Link>
           <Link href='#about' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               About
-            </li>
+            </span>
           </Link>
           <Link href='#skills' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               Skills
-            </li>
+            </span>
           </Link>
           <Link href='#experience' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               Experience
-            </li>
+            </span>
           </Link>
           <Link href='#projects' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               Projects
-            </li>
+            </span>
           </Link>
           <Link href='#contact' aria-label='hero nav link'>
-            <li className='navItem'>
+            <span className='navItem'>
               Contact
-            </li>
+            </span>
           </Link>
-        </ul>
+        </div>
       </nav>
     </div>
     

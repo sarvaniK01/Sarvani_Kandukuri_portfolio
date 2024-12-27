@@ -28,8 +28,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'rampReady': "url('/projects/rampReady.png')",
-        'netflixClone': "url('/projects/netflixClone.png')",
+        'rampReady': "url('/projects/rampReady.webp')",
+        'netflixClone': "url('/projects/netflixClone.webp')",
       }
     },
   },

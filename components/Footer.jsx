@@ -28,26 +28,26 @@ const Footer = () => {
         
         {/* center div */}
         <div className='basis-1/3 my-auto justify-self-center'>
-          <ul className='grid grid-cols-2 font-baskerville text-2xl gap-y-8 lg:gap-y-12'>
+          <div className='grid grid-cols-2 font-baskerville text-2xl gap-y-8 lg:gap-y-12'>
             <Link href="#home" className='footerItem w-fit'>
-              <li>Home</li>
+              <span>Home</span>
             </Link>
             <Link href="#experience" className='footerItem w-fit'>
-              <li>Experience</li>
+              <span>Experience</span>
             </Link>
             <Link href="#about" className='footerItem w-fit'>
-              <li>About</li>
+              <span>About</span>
             </Link>
             <Link href="#projects" className='footerItem w-fit'>
-              <li>Projects</li>
+              <span>Projects</span>
             </Link>
             <Link href="#skills" className='footerItem w-fit'>
-              <li>Skills</li>
+              <span>Skills</span>
             </Link>
             <Link href="#contact" className='footerItem w-fit'>
-              <li>Contact</li>
+              <span>Contact</span>
             </Link>
-          </ul>
+          </div>
         </div>
         
         {/* right div */}

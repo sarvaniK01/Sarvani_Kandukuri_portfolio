@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // images
-import img1 from "../../public/about/img1.png";
+import img1 from "../../public/about/img1.webp";
 
 const About = () => {
   return (

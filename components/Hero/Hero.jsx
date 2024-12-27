@@ -5,8 +5,9 @@ import Image from "next/image";
 import Navbar from "./Navbar";
 
 // images
-import hero1 from "../../public/hero/img1.png";
-import hero2 from "../../public/hero/img2.png";
+import hero1 from "../../public/hero/img1.webp";
+import hero2 from "../../public/hero/img2.webp";
+
 
 const Hero = () => {
   return (
@@ -25,12 +26,12 @@ const Hero = () => {
           {/* Image */}
           <div className="mobileWordAnimation2">
             <ul className="">
-              {/* <li><Image src={hero2} className='self-center' alt='hero image' /></li> */}
               <li>
                 <Image
                   src={hero1}
                   className="self-center mx-auto md:w-[35%] lg:w-[25%]"
                   alt="hero image"
+                  loading="eager"
                 />
               </li>
             </ul>
