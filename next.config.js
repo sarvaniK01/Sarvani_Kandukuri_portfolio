@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimental: {
+    turbo: {
+      trace: false, // Disables build trace collection
+    },
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
