@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/logo.svg" sizes="any" />
         <link
           rel="preload"
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
