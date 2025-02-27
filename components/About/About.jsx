@@ -30,7 +30,7 @@ const About = () => {
             pixels meet purpose!
           </p>
           <Link
-            href="sarvanik_resume.pdf"
+            href="sarvani_kandukuri_resume.pdf"
             target="_blank"
             className="self-center xl:self-start"
           >
